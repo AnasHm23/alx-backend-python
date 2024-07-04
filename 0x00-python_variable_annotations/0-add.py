@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
-# declaring a function with a type-annotated function
+'''declaring a function with a type-annotated function
+'''
 
 
-def add(a: float, b: float):
-    sum: float = a + b
-    return sum
+def add(a: float, b: float) -> float:
+    '''Returns sum of two floats'''
+    
+    return a + b
