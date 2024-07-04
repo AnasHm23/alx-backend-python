@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-
+'''declaring different type of variables'''
 
 a: int = 1
 pi: float = 3.14
